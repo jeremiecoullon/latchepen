@@ -1,0 +1,5 @@
+# ignore folder with random images
+random_images/
+music/
+music_gitignore/
+.DS_Store
