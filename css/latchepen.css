@@ -531,17 +531,21 @@ a:focus {
 .content-section {
     padding-top: 100px;
 }
+#about, #the_band, #gigs, #listen, .listen-section, #contact{
+  background: #fafafa;
+  color: #333333;
+}
 
 .listen-section {
     width: 100%;
     padding: 50px 0;
-    color: #fff;
-    /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background: #fff url(../img/latchepen_yellow_slash_1.png) no-repeat center 0px;
+    background-color: #fafafa;
 }
 
 /*This gives a nice padding for the sections so they're separate from each other*/
@@ -705,18 +709,9 @@ body {
   }
 }
 
-/* Trying out all white */
-/*body{
-  background: #fafafa;
-}*/
-#about, #the_band, #gigs, #listen, .listen-section, #contact{
-  background: #fafafa;
-  color: #333333;
-}
+
 /*.listen-section{*/
 .le_gigs{
-  background: #fff url(../img/latchepen_yellow_slash_4.png) no-repeat center 0px;
-  background-color: #fafafa;
   padding-bottom: 200px;
 }
 a {
