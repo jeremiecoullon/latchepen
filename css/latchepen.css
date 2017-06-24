@@ -60,7 +60,7 @@ a.selected {
 }
 
 .messagepop {
-  background-color:#000;
+  background-color:rgba(222, 222, 222, 0.75);
   border:1px solid #999999;
   cursor:default;
   display:none;
@@ -92,17 +92,17 @@ label {
   overflow: hidden;
   font-size: 17px;
   font-weight: 400;
-  color: #FF5B5B;
+  color: #333333;
   position: relative;
   top: 13px;
 }
 
 #mc_embed_signup .newsletter-button {
   clear:both;
-  background-color: #000;
+  background-color: rgba(222, 222, 222, 0.75);
   border: 0 none;
   border-width: 3px;
-  color: #FF5B5B;
+  color: #333333;
   cursor: pointer;
   display: inline-block;
   font-size:15px;
@@ -115,12 +115,12 @@ label {
   vertical-align: middle;
   white-space: nowrap;
   width: auto;
-  border:3px solid #FF5B5B;
+  border:3px solid #333333;
 }
 #mc_embed_signup .newsletter-button:hover {
-  color: #FA3131;
+  color: #333333;
   /*background-color: #FFC21C;*/
-  border-color: #FA3131;
+  border-color: #333333;
 }
 /*#FF5B5B*/
 /* inline error in sign up form: have the background colour as dark grey rather than red  #27282D */
@@ -141,7 +141,7 @@ label {
 }
 
 #mc_embed_signup form {
-  background-color: #000;
+  background-color: rgba(222, 222, 222, 0.75);
   border-width: 3px;
 }
 .mc_email_form{
