@@ -467,7 +467,7 @@ a:focus {
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
     position: relative;
-    top: 100px;
+    top: 60px;
 }
 
 .btn-circle:hover,
@@ -557,7 +557,7 @@ a:focus {
 /*This gives a nice padding for the sections so they're separate from each other*/
 @media(min-width:768px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 120px;
     }
 
     .listen-section {
@@ -725,4 +725,28 @@ a {
 }
 a:hover{
   color: rgb(134, 123, 0);
+}
+
+.new_album_CTA{
+  color: #333333;
+  margin-bottom: 0px;
+  font-weight: 400;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: auto;
+  width: 40%;
+  padding: 10px 20px;
+  /*background-color: #FFEA03;*/
+}
+
+.new_album-section {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background: #fff url(../img/latchepen_yellow_slash_1.png) no-repeat center 0px;
+    background-color: #fafafa;
 }
