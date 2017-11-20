@@ -738,6 +738,11 @@ a:hover{
   padding: 10px 20px;
   /*background-color: #FFEA03;*/
 }
+@media(max-width: 414px){
+  .new_album_CTA{
+    font-size: 20px;
+  }
+}
 
 .new_album-section {
     width: 100%;
